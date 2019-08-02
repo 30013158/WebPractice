@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DivPrac</title>
+    <style>
+   .overall{
+       position:relative;
+       background-color:lightblue;
+       width: 1010px;
+       height:900px;
+   }
+    .outside{
+        position:relative;
+      height : 900px;
+      width :300px;
+      background-color: rgb(240, 179, 105);
+    }
+    
+    .inside{
+        position:absolute;
+        box-sizing: border-box;
+        color: white;
+        height:150px;
+        width:138px;
+        background-color: black;
+        margin:5px 7px 7px 5px;
+        padding: 10px;
+        border : 5px solid white;
+        font-family: fantasy;
+    }
+
+    .inside2 {
+        right: 0px;
+        top: 0px;
+        position:absolute;
+    }
+    
+    .inside3 {
+        left: 0px;
+        top: 160px;
+        position:absolute;
+    }
+
+    .inside4 {
+        right: 0px;
+        top: 160px;
+        position:absolute;
+    }
+    .maincontent{
+        font-family: 'lobster' , cursive;
+        top: 0px;
+        right:0px;
+        position: absolute;
+        color: white;
+        background-color:rgb(34, 27, 27);
+        width: 700px;
+        height: 900px;
+    }
+
+    #details{
+        border-collapse: collapse;
+        width:100%;
+    }
+    #details td, #details th{
+     border: 2px solid green;
+     padding: 4px;
+    }
+    #details tr:nth-child(even){background-color: darkgrey;}
+
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div class="overall">
+    <div class="outside">
+        <div class="inside">This is practice exercise for div tags</div>
+        <div class="inside inside2">This is div2 </div>
+        <div class="inside inside3">This is div3 </div>
+        <div class="inside inside4">This is div4 </div>
+    </div>
+    <div class= maincontent> ABC 
+        <hr>
+        <table id="details">
+            <tr>
+            <th>Sr No.</th>
+            <th> Name</th>
+            <th>Activities</th>
+            <th>Country</th>
+        </tr>
+
+        <tr>
+                <td>1</td>
+                <td> Rajveer</td>
+                <td>
+                    Study
+                </td>
+                <td>NZ</td>
+            </tr>
+
+            <tr>
+                    <td>2</td>
+                    <td>Avinoor</td>
+                    <td>Play</td>
+                    <td>India</td>
+                </tr>
+
+                <tr>
+                        <td>3</td>
+                        <td> Jassi</td>
+                        <td>Teach</td>
+                        <td>India</td>
+                    </tr>
+        </table>
+    </div>
+</div>
+
+</body>
+</html>
