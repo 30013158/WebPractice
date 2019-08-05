@@ -1,108 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DivPrac</title>
     <style>
-   .overall{
-       position:relative;
-       background-color:lightblue;
-       width: 1010px;
-       height:900px;
-   }
-    .outside{
-        position:relative;
-      height : 900px;
-      width :300px;
-      background-color: rgb(240, 179, 105);
-    }
-    
-    .inside{
-        position:absolute;
-        box-sizing: border-box;
-        color: white;
-        height:150px;
-        width:138px;
-        background-color: black;
-        margin:5px 7px 7px 5px;
-        padding: 10px;
-        border : 5px solid white;
-        font-family: fantasy;
-    }
+        .overall {
+            position: relative;
+            background-image: url("https://images3.alphacoders.com/102/102727.jpg");
+            width: 1810px;
+            height: 900px;
+        }
 
-    .inside2 {
-        right: 0px;
-        top: 0px;
-        position:absolute;
-    }
-    
-    .inside3 {
-        left: 0px;
-        top: 160px;
-        position:absolute;
-    }
+        .outside {
+            position: relative;
+            height: 900px;
+            width: 300px;
+            background-color: rgb(240, 179, 105);
+        }
 
-    .inside4 {
-        right: 0px;
-        top: 160px;
-        position:absolute;
-    }
-    .maincontent{
-        font-family: 'lobster' , cursive;
-        top: 0px;
-        right:0px;
-        position: absolute;
-        color: white;
-        background-color:rgb(34, 27, 27);
-        width: 700px;
-        height: 900px;
-    }
+        .inside {
+            position: absolute;
+            box-sizing: border-box;
+            color: white;
+            height: 150px;
+            width: 138px;
+            background-color: black;
+            margin: 5px 7px 7px 5px;
+            padding: 10px;
+            border: 5px solid white;
+            font-family: fantasy;
+        }
 
-    #details{
-        border-collapse: collapse;
-        width:100%;
-    }
-    #details td, #details th{
-     border: 2px solid green;
-     padding: 4px;
-    }
-    #details tr:nth-child(even){background-color: darkgrey;}
+        .inside2 {
+            right: 0px;
+            top: 0px;
+            position: absolute;
+        }
 
-    
-    
-    
+        .inside3 {
+            left: 0px;
+            top: 160px;
+            position: absolute;
+        }
+
+        .inside4 {
+            right: 0px;
+            top: 160px;
+            position: absolute;
+        }
+
+        .maincontent {
+            font-family: 'lobster', cursive;
+            top: 0px;
+            left: 300px;
+            position: absolute;
+            color: white;
+            background-color: rgb(34, 27, 27);
+            width: 1000px;
+            height: 900px;
+        }
+
+        #details {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #details td,
+        #details th {
+            border: 2px solid green;
+            padding: 4px;
+        }
+
+        #details tr:nth-child(even) {
+            background-color: rgb(79, 194, 79);
+        }
     </style>
 </head>
+
 <body>
     <div class="overall">
-    <div class="outside">
-        <div class="inside">This is practice exercise for div tags</div>
-        <div class="inside inside2">This is div2 </div>
-        <div class="inside inside3">This is div3 </div>
-        <div class="inside inside4">This is div4 </div>
-    </div>
-    <div class= maincontent> ABC 
-        <hr>
-        <table id="details">
-            <tr>
-            <th>Sr No.</th>
-            <th> Name</th>
-            <th>Activities</th>
-            <th>Country</th>
-        </tr>
+        <div class="outside">
+            <div class="inside">This is practice exercise for div tags</div>
+            <div class="inside inside2">This is div2 </div>
+            <div class="inside inside3">This is div3 </div>
+            <div class="inside inside4">This is div4 </div>
+        </div>
+        <div class=maincontent> ABC
+            <hr>
+            <table id="details">
+                <tr>
+                    <th>Sr No.</th>
+                    <th> Name</th>
+                    <th>Activities</th>
+                    <th>Country</th>
+                </tr>
 
-        <tr>
-                <td>1</td>
-                <td> Rajveer</td>
-                <td>
-                    Study
-                </td>
-                <td>NZ</td>
-            </tr>
+                <tr>
+                    <td>1</td>
+                    <td> Rajveer</td>
+                    <td>
+                        Study
+                    </td>
+                    <td>NZ</td>
+                </tr>
 
-            <tr>
+                <tr>
                     <td>2</td>
                     <td>Avinoor</td>
                     <td>Play</td>
@@ -110,14 +115,34 @@
                 </tr>
 
                 <tr>
-                        <td>3</td>
-                        <td> Jassi</td>
-                        <td>Teach</td>
-                        <td>India</td>
-                    </tr>
-        </table>
+                    <td>3</td>
+                    <td> Jassi</td>
+                    <td>Teach</td>
+                    <td>India</td>
+                </tr>
+            </table>
+            <hr>
+            <img src="http://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.jpg"
+                alt="mountain beside a river" style="width: 300px; float:left; margin: 10px; border:2px solid blue;" usemap="#imagemap">
+  <map name="imagemap"><area shape="circle" coords="120,100,100" alt="mountains" href="https://en.wikipedia.org/wiki/Mountain" ></map>
+
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Curabitur gravida arcu ac tortor dignissim convallis. Elementum tempus egestas sed sed
+            risus. Sed ullamcorper morbi tincidunt ornare. Ornare massa eget egestas purus viverra accumsan in. Libero
+            nunc consequat interdum varius sit. Risus pretium quam vulputate dignissim suspendisse in est. Justo laoreet
+            sit amet cursus sit amet dictum sit amet. Habitant morbi tristique senectus et netus et. Faucibus pulvinar
+            elementum integer enim neque volutpat ac tincidunt vitae. Purus in massa tempor nec feugiat nisl pretium.
+            Massa tincidunt dui ut ornare lectus sit amet. Dolor sit amet consectetur adipiscing elit. Pretium nibh
+            ipsum consequat nisl vel. nunc consequat interdum varius sit. Risus pretium quam vulputate dignissim suspe
+            ndisse in est. Justo laoreet
+            sit amet cursus sit amet dictum sit amet. Habitant morbi tristique senectus et netus et. Faucibus pulvinar
+            elementum integer enim neque volutpat ac tincidunt vitae. Purus in massa tempor nec feugiat nisl pretium.
+            Massa tincidunt dui ut ornare lectus sit amet. Dolor sit amet consectetur adipiscing elit. Pretium nibh
+            ipsum consequat nisl vel.
+        </div>
     </div>
-</div>
 
 </body>
+
 </html>
