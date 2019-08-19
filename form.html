@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML forms</title>
+</head>
+<body>
+     <!-- look for this link: https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Your_first_HTML_form  -->
+    <form>
+        <form action="/my-handling-form-page" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="button" onclick="myFunction()">Submit</button>
+
+            </div>
+          </form>
+          <p id="demo">
+              <script>
+              function myFunction(){
+                document.getElementById("demo").innerHTML = "Hello " +
+                document.getElementById("demo").value  + ", your email is " +
+                document.getElementById("mail").value;
+              }
+              </script>
+          </p>
+
+    </form>
+</body>
+</html>
